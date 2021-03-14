@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-configmap-1
+  namespace: rhacm-git-app
+data:
+  age: '20'
